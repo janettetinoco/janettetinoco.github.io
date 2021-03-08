@@ -1,0 +1,123 @@
+body{
+    position: relative;
+}
+
+.hidden{
+  display: none;
+}
+.game-intro h1{
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 3vh 0vh 3vh 0vh;
+}
+
+.game-intro h2{
+    font-size: 9vw;
+    padding: 4vh 0vh 5vh 0vh;
+    font-family: 'La Belle Aurore', cursive;
+    text-align: center;
+}
+
+.game-intro h3{
+    font-size: 1.6vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.game-intro{
+    /* display:block;
+    position: absolute;
+    background-color: rgb(24, 24, 24);
+    height:100vh;
+    width:100vw; */
+    position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background: rgb(0, 0, 0);
+   color:white;
+   display: flex;
+   align-items: center;
+   text-align: left;
+   flex-direction: column;
+
+}
+#game-title{
+    padding: 3vh 0vh;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 8vh;
+    text-align: center;
+    position: relative;
+}
+
+#game-instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(223, 4, 4);
+    border-radius:20px;
+    width: 21vw;
+    max-height: 30vh;
+    background: url('images/k_backdrop1.jpg');
+    background-size: cover;
+    color: white;
+
+}
+
+#arrowup{
+    height:5vh;
+    width:auto;
+}
+#spacebar{
+    width:7vw;
+    height:5vh;
+}
+
+
+p{
+    padding: 10px;
+    z-index: 3;
+    text-align: center;
+    background: rgb(43, 41, 41);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Permanent Marker';
+    line-height: 1.9;
+    font-size: medium;
+
+}
+#game-instructions #title{
+    color: white;
+    opacity: 100%;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size:3.6vh;
+    letter-spacing: 3px;
+    z-index:5;
+}
+
+#game-body{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+canvas{
+    border-radius: 20px;
+}
+
+
+#score-card{
+    position: absolute;
+    padding:1vh 5vw;
+    left: 1vw;
+    z-index: 4;
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5vh;
+}
+
+
