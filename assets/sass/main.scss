@@ -98,6 +98,9 @@ $size-header-pad: 4em;
 	}
 
 /* Basic */
+	img.logo-img {
+	height: 70px;
+	}
 
 	// Set box model to border-box.
 	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
@@ -618,7 +621,7 @@ $size-header-pad: 4em;
 				border-radius: _size(border-radius);
 				border: solid 3px rgba(255,255,255,0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Live';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: _font(weight-bold);
@@ -1043,6 +1046,7 @@ $size-header-pad: 4em;
 			cursor: default;
 		}
 	}
+	
 
 /* Work Item */
 
@@ -1631,3 +1635,4 @@ $size-header-pad: 4em;
 			}
 
 	}
+
