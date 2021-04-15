@@ -72,7 +72,12 @@
       }
     })
     .catch((error) => {
-      displayError(thisForm, error);
+      if (error.message.includes('{"next":"/thanks?language=en","ok":true}')){
+        thisForm.querySelector('.sent-message').classList.add('d-block');
+        thisForm.reset();
+      }else{
+        displayError(thisForm, error);
+      }
     });
   }
 
